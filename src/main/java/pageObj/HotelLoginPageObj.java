@@ -67,6 +67,7 @@ public class HotelLoginPageObj extends Base{
 	public List<WebElement> PrintoutAllLinks (){
 		return allLinks;
 // as test of pull & push changes was created.
+// 		second changes
 	}
 
 }
