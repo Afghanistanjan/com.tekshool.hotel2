@@ -40,7 +40,7 @@ public class TestNGAnnotation {
 		
 		
 	}
-	@Test(priority = 1)
+	@Test(priority = 3)
 	public void test_one() {
 	System.out.println("This is Test One");
 }
@@ -49,7 +49,7 @@ public class TestNGAnnotation {
 		System.out.println("This is test two");
 	}
 	
-	@Test (priority = 3)
+	@Test (priority = 1)
 	public void test_hree(){
 		System.out.println("thsis is test three ");
 	}

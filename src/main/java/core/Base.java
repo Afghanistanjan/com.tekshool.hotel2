@@ -20,14 +20,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 	
-	
 
 	public static WebDriver driver;
 	public static Properties properties;
 	public static Logger logger;
-	private String projectPropertyFilePath = ".\\srs\\test\\resources\\properties\\log4j.propertie";
+	private String projectPropertyFilePath = ".\\srs\\test\\resources\\properties\\ProjectProperty.Properties";
 	private String log4JFilePath = ".\\srs\\test\\resources\\properties\\log4j.properties";
-
 	public Base() {
 
 		try {
@@ -43,7 +41,8 @@ public class Base {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
+		
+		
 		logger = LogManager.getLogger("logger_File"); // note: on the base of TekSchool format in this line instead of LongManager was logger. due to had red line i myselfe change it to LogManager.
 		PropertyConfigurator.configure(log4JFilePath);
 	

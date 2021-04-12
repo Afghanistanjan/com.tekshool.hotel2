@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="1" name="TestSuite" time="0.048" errors="0" skipped="0">
+<testsuite tests="15" failures="1" name="TestSuite" time="0.068" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\TSA\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4168565081894193485.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\TSA\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2807491796726152926.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/TSA/Downloads/eclipse-java-2020-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/TSA/Downloads/eclipse-java-2020-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Web Driver 2;C:\apache-maven-3.6.3;C:\JDK\jdk-15;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Users\TSA\AppData\Local\Microsoft\WindowsApps;C:\chromedriver;C:\Program Files\Java\jdk1.8.0_271\bin;;C:\Users\TSA\Downloads\eclipse-java-2020-12-R-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,8 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="testNG.concept.TestNGAssertions" name="hardAssertion" time="0.008"/>
-  <testcase classname="tests.LoginTest" name="loginToHotel" time="0.03">
+  <testcase classname="testNG.concept.TestNGAssertions" name="hardAssertion" time="0.012"/>
+  <testcase classname="tests.LoginTest" name="loginToHotel" time="0.027">
     <failure message="
 Parameter &apos;userName&apos; is required by @Test on method loginToHotel but has not been marked @Optional or defined
 " type="org.testng.TestNGException">org.testng.TestNGException: 
@@ -149,17 +149,17 @@ Parameter &amp;apos;userName&amp;apos; is required by @Test on method loginToHot
 
 </system-err>
   </testcase>
-  <testcase classname="testNG.concept.TestNGAssertions" name="softAssertion" time="0.002"/>
+  <testcase classname="testNG.concept.TestNGAssertions" name="softAssertion" time="0.013"/>
   <testcase classname="testNG.concept.TestNGGroups" name="testRegression" time="0.001"/>
-  <testcase classname="testNG.concept.TestNGGroups" name="testRegression_two" time="0.001"/>
-  <testcase classname="testNG.concept.TestNGGroups" name="testSmoke" time="0.002"/>
-  <testcase classname="testNG.concept.TestNGGroups" name="testSmoke_three" time="0"/>
-  <testcase classname="testNG.concept.TestNGGroups" name="testSmoke_two" time="0.002"/>
-  <testcase classname="testNG.concept.TestNGDependent" name="test_OpenBrowser" time="0.001"/>
+  <testcase classname="testNG.concept.TestNGGroups" name="testRegression_two" time="0"/>
+  <testcase classname="testNG.concept.TestNGGroups" name="testSmoke" time="0.011"/>
+  <testcase classname="testNG.concept.TestNGGroups" name="testSmoke_three" time="0.001"/>
+  <testcase classname="testNG.concept.TestNGGroups" name="testSmoke_two" time="0"/>
+  <testcase classname="testNG.concept.TestNGDependent" name="test_OpenBrowser" time="0"/>
   <testcase classname="testNG.concept.TestNGDependent" name="test_NavigateToURL" time="0"/>
   <testcase classname="testNG.concept.TestNGDependent" name="test_SignINtoApplication" time="0"/>
   <testcase classname="testNG.concept.TestNGAnnotation" name="test_without_priority" time="0"/>
-  <testcase classname="testNG.concept.TestNGAnnotation" name="test_one" time="0.001"/>
+  <testcase classname="testNG.concept.TestNGAnnotation" name="test_hree" time="0.001"/>
   <testcase classname="testNG.concept.TestNGAnnotation" name="test_two" time="0"/>
-  <testcase classname="testNG.concept.TestNGAnnotation" name="test_hree" time="0"/>
+  <testcase classname="testNG.concept.TestNGAnnotation" name="test_one" time="0.002"/>
 </testsuite>

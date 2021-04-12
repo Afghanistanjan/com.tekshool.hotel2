@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.877 sec <<< FAILURE!
-loginToHotel(tests.LoginTest)  Time elapsed: 0.03 sec  <<< FAILURE!
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.169 sec <<< FAILURE!
+loginToHotel(tests.LoginTest)  Time elapsed: 0.027 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'userName' is required by @Test on method loginToHotel but has not been marked @Optional or defined
 

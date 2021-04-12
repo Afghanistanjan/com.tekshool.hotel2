@@ -18,7 +18,7 @@ public class HotelLoginPageObj extends Base{
 
 	public HotelLoginPageObj() {
 		PageFactory.initElements(driver, this);
-		
+	
 	}
 
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Sign in')]")
@@ -66,8 +66,6 @@ public class HotelLoginPageObj extends Base{
 	
 	public List<WebElement> PrintoutAllLinks (){
 		return allLinks;
-// as test of pull & push changes was created.
-// 		second changes
-	}
 
+	}
 }

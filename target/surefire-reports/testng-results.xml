@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="15" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="186" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+  <suite name="Command line suite" duration-ms="173" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
     <groups>
       <group name="test">
-        <method signature="TestNGDependent.test_OpenBrowser()[pri:0, instance:testNG.concept.TestNGDependent@516be40f]" name="test_OpenBrowser" class="testNG.concept.TestNGDependent"/>
+        <method signature="TestNGDependent.test_OpenBrowser()[pri:0, instance:testNG.concept.TestNGDependent@221af3c0]" name="test_OpenBrowser" class="testNG.concept.TestNGDependent"/>
       </group> <!-- test -->
       <group name="regression">
-        <method signature="TestNGGroups.testRegression()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testRegression" class="testNG.concept.TestNGGroups"/>
-        <method signature="TestNGGroups.testRegression_two()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testRegression_two" class="testNG.concept.TestNGGroups"/>
+        <method signature="TestNGGroups.testRegression()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testRegression" class="testNG.concept.TestNGGroups"/>
+        <method signature="TestNGGroups.testRegression_two()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testRegression_two" class="testNG.concept.TestNGGroups"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TestNGGroups.testSmoke()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testSmoke" class="testNG.concept.TestNGGroups"/>
-        <method signature="TestNGGroups.testSmoke_three()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testSmoke_three" class="testNG.concept.TestNGGroups"/>
-        <method signature="TestNGGroups.testSmoke_two()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testSmoke_two" class="testNG.concept.TestNGGroups"/>
+        <method signature="TestNGGroups.testSmoke()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testSmoke" class="testNG.concept.TestNGGroups"/>
+        <method signature="TestNGGroups.testSmoke_three()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testSmoke_three" class="testNG.concept.TestNGGroups"/>
+        <method signature="TestNGGroups.testSmoke_two()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testSmoke_two" class="testNG.concept.TestNGGroups"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Command line test" duration-ms="186" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+    <test name="Command line test" duration-ms="173" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
       <class name="tests.LoginTest">
-        <test-method status="FAIL" signature="loginToHotel(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3ba987b8]" name="loginToHotel" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="FAIL" signature="loginToHotel(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@72cc7e6f]" name="loginToHotel" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -75,145 +75,145 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
         </test-method> <!-- loginToHotel -->
       </class> <!-- tests.LoginTest -->
       <class name="testNG.concept.TestNGGroups">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testRegression()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testRegression" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="testRegression()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testRegression" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegression -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testRegression_two()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testRegression_two" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="testRegression_two()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testRegression_two" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegression_two -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="testSmoke()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testSmoke" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSmoke()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testSmoke" duration-ms="12" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSmoke -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSmoke_three()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testSmoke_three" duration-ms="2" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="testSmoke_three()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testSmoke_three" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSmoke_three -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSmoke_two()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="testSmoke_two" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="testSmoke_two()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="testSmoke_two" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSmoke_two -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@3c0a50da]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGGroups@62bd765]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testNG.concept.TestNGGroups -->
       <class name="testNG.concept.TestNGDependent">
-        <test-method status="PASS" signature="test_OpenBrowser()[pri:0, instance:testNG.concept.TestNGDependent@516be40f]" name="test_OpenBrowser" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="test_OpenBrowser()[pri:0, instance:testNG.concept.TestNGDependent@221af3c0]" name="test_OpenBrowser" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_OpenBrowser -->
-        <test-method status="PASS" signature="test_NavigateToURL()[pri:0, instance:testNG.concept.TestNGDependent@516be40f]" name="test_NavigateToURL" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" depends-on-methods="testNG.concept.TestNGDependent.test_OpenBrowser" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="test_NavigateToURL()[pri:0, instance:testNG.concept.TestNGDependent@221af3c0]" name="test_NavigateToURL" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" depends-on-methods="testNG.concept.TestNGDependent.test_OpenBrowser" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_NavigateToURL -->
-        <test-method status="PASS" signature="test_SignINtoApplication()[pri:0, instance:testNG.concept.TestNGDependent@516be40f]" name="test_SignINtoApplication" duration-ms="1" depends-on-groups="test" started-at="2021-04-10T23:51:50 EDT" depends-on-methods="testNG.concept.TestNGDependent.test_NavigateToURL" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="test_SignINtoApplication()[pri:0, instance:testNG.concept.TestNGDependent@221af3c0]" name="test_SignINtoApplication" duration-ms="1" depends-on-groups="test" started-at="2021-04-12T00:59:50 EDT" depends-on-methods="testNG.concept.TestNGDependent.test_NavigateToURL" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_SignINtoApplication -->
       </class> <!-- testNG.concept.TestNGDependent -->
       <class name="testNG.concept.TestNGAnnotation">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="beforeTest" is-config="true" duration-ms="35" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="beforeTest" is-config="true" duration-ms="11" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_without_priority()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="test_without_priority" duration-ms="2" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="test_without_priority()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="test_without_priority" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_without_priority -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_one()[pri:1, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="test_one" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_one -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_two()[pri:2, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="test_two" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_two -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="test_hree()[pri:3, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="test_hree" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="test_hree()[pri:1, instance:testNG.concept.TestNGAnnotation@59717824]" name="test_hree" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_hree -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@64d7f7e0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test_two()[pri:2, instance:testNG.concept.TestNGAnnotation@59717824]" name="test_two" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_two -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_one()[pri:3, instance:testNG.concept.TestNGAnnotation@59717824]" name="test_one" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_one -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG.concept.TestNGAnnotation@59717824]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- testNG.concept.TestNGAnnotation -->
       <class name="testNG.concept.TestNGAssertions">
-        <test-method status="PASS" signature="hardAssertion()[pri:0, instance:testNG.concept.TestNGAssertions@146044d7]" name="hardAssertion" duration-ms="4" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="hardAssertion()[pri:0, instance:testNG.concept.TestNGAssertions@646be2c3]" name="hardAssertion" duration-ms="7" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hardAssertion -->
-        <test-method status="PASS" signature="softAssertion()[pri:0, instance:testNG.concept.TestNGAssertions@146044d7]" name="softAssertion" duration-ms="12" started-at="2021-04-10T23:51:50 EDT" finished-at="2021-04-10T23:51:50 EDT">
+        <test-method status="PASS" signature="softAssertion()[pri:0, instance:testNG.concept.TestNGAssertions@646be2c3]" name="softAssertion" duration-ms="9" started-at="2021-04-12T00:59:50 EDT" finished-at="2021-04-12T00:59:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- softAssertion -->
